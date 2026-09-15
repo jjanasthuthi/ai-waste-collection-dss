@@ -135,7 +135,7 @@ The project includes an interactive **Streamlit dashboard** showing:
 
 ### Dashboard Preview
 
-![Dashboard Overview](image.png)
+![image.png)
 
 ![Route and Sustainability](Screenshot 2026-09-15 110353.png)(is in the screenshort file)
 
