@@ -121,41 +121,34 @@ The demonstrated routing scenario estimates:
 These values are **prototype estimates**, not measured real-world savings.
 
 ## Dashboard
-
-The project includes an interactive **Streamlit dashboard** showing:
-
-- Number of containers
-- Urgent containers
-- Early-warning containers
-- Model performance
-- Collection priorities
-- Route optimization results
-- Sustainability estimates
-- Responsible AI considerations
-
 ### Dashboard Preview
 
-![image.png)
+![Dashboard Overview](screenshots/dashboard_overview.png.png)
 
-![Route and Sustainability](Screenshot 2026-09-15 110353.png)(is in the screenshort file)
+![Route and Sustainability](screenshots/route_sustainability.png.png)
 
 ## Responsible AI
 
 Responsible AI considerations were included throughout the project:
 
 ### Transparency
+
 The dashboard communicates model performance, prediction outputs and limitations.
 
 ### Human Oversight
+
 The system is designed as a decision-support tool. Final collection decisions remain with human waste-management teams.
 
 ### Fairness
+
 The system should be evaluated across different locations, container types and operating conditions before real-world deployment.
 
 ### Privacy
+
 The project uses sensor and container-level operational data rather than personal user information.
 
 ### Limitations
+
 The prototype uses historical data and geographic distance calculations. Real-world deployment would require live sensor integration, road-network routing, traffic information, vehicle constraints and continuous model monitoring.
 
 ## Technologies Used
@@ -199,3 +192,40 @@ ai-waste-collection-dss/
 │
 ├── requirements.txt
 └── README.md
+
+IBM BOB
+
+IBM BOB was used as an AI-assisted development and explanation tool during the project. It supported development, debugging, validation and explanation of the workflow.
+
+The machine-learning model itself was trained using Python and Scikit-learn.
+
+Expected Impact
+
+The project demonstrates how AI can help shift urban waste collection from fixed or reactive scheduling toward predictive, data-driven decision support.
+
+Potential benefits include:
+
+Earlier identification of containers approaching overflow
+Better prioritization of collection activities
+More efficient collection route planning
+Reduced unnecessary travel
+Potential reduction in fuel consumption and emissions
+Improved support for sustainable smart-city operations
+Future Improvements
+
+Future versions could include:
+
+Real-time IoT sensor integration
+Road-network based routing
+Traffic-aware route optimization
+Vehicle capacity constraints
+Multi-vehicle route optimization
+Real-time model monitoring
+Dynamic collection scheduling
+Integration with municipal waste-management systems
+
+
+Project Author
+
+J Janasthuthi
+
