@@ -1,0 +1,13 @@
+Train/Test Split Information
+============================
+Total rows         : 787,622
+Train rows (80%)   : 630,097
+Train sample used  : 200,000  (random_state=42)
+Test rows  (20%)   : 157,525
+Cutoff timestamp   : 2023-07-13 17:20:00
+Train end          : 2023-07-13 17:20:00
+Test start         : 2023-07-13 17:20:00
+
+Model parameters   : {'n_estimators': 100, 'max_depth': 15, 'min_samples_leaf': 5, 'class_weight': 'balanced', 'random_state': 42, 'n_jobs': -1}
+Feature columns    : ['Previous_Fill', 'Fill_Change', 'Hour', 'Day_of_Week', 'Month', 'Rolling_Mean_3']
+Target column      : Critical_Next

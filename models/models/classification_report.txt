@@ -1,0 +1,14 @@
+Model Evaluation Report
+=======================
+Model            : RandomForestClassifier
+Cutoff timestamp : 2023-07-13 17:20:00
+Test rows        : 157,527
+
+                  precision    recall  f1-score   support
+
+Not Critical (0)       0.99      0.93      0.96    140783
+    Critical (1)       0.61      0.90      0.73     16744
+
+        accuracy                           0.93    157527
+       macro avg       0.80      0.92      0.84    157527
+    weighted avg       0.95      0.93      0.93    157527
